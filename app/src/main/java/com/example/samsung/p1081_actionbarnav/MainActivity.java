@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity implements
                 setNavigationMode(NAVIGATION_MODE_TABS);
                 FIRST_INPUT_IN_MODE_TABS = true;
             default:
+                FIRST_INPUT_IN_MODE_LIST = true;
                 break;
         }
 
